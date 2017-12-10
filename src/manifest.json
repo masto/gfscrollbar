@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "GF Scroll Bar",
+  "description": "Un-hides the scroll bar on the GFUI",
+  "version": "1.0",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["clean_styles.js"],
+    "matches": ["*://app.glowforge.com/*"],
+    "run_at": "document_idle"
+  }]
+}

@@ -1,0 +1,7 @@
+.gf-design-container .ScrollBox {
+    overflow: unset !important;
+}
+
+.material-list .verticalScrollBox {
+    width: unset !important;
+}
